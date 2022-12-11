@@ -1,0 +1,57 @@
+@media (max-width:1023px) {
+    body{
+        align-items: center;
+        width:100%;
+    }
+    .logo{
+        margin-top: 0.5em;
+        justify-content: center;
+    }
+    .navbar{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 1.5em;
+    }
+    
+    
+    .navbar a{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-family: 'Meera Inimai';
+    }
+    
+    .navbar a:hover{
+        color:coral;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-family: 'Meera Inimai';
+    }
+    .navbar a:active{
+        color: crimson;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-family: 'Meera Inimai';
+    }
+    .namofschool{
+        margin-top: 1.3em;
+        background-color: rgb(24, 43, 211);
+        color: white;
+        font-size: 0.8em;
+        font-family: 'Meera Inimai';
+        height: 17em;
+        align-content: center;
+        padding: 1.8em;
+        text-align: center;
+        font-family: 'MuseoModerno';
+    }
+    .namofschool h4{
+        font-family: 'Merriweather Sans';
+        line-height: 0.6cm;
+        margin-bottom: 3em;
+    }
+}
